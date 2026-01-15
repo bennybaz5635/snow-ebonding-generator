@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="ff566cdc8e6a32109f2c22516cbfe875" sys_domain="global" table="x_512592_ebondin_0_document_approver" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3566cdce46a3210f98cd31c4e426f76</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_512592_ebondin_0_document_approver" name="x_512592_ebondin_0_document_approver" sys_domain="global" view="4eb2f461bcb032108bb2f58e8d11a171">ff566cdc8e6a32109f2c22516cbfe875</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_document_approver" sys_domain="global" view="4eb2f461bcb032108bb2f58e8d11a171">37566cdc2f6a32101f22d50816735875</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_512592_ebondin_0_document_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff566cdc8e6a32109f2c22516cbfe875</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_512592_ebondin_0_document_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+            <sys_update_name>sys_ui_form_sections_ff566cdc8e6a32109f2c22516cbfe875</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:24</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">4eb2f461bcb032108bb2f58e8d11a171</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="">ffee2773773020109837b73aba10614c</search_context_config>
+        <source display_value="Document Approval">8866acdca56a3210e939160bb672fc8f</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:18</sys_created_on>
+        <sys_id>8c66acdce66a3210ef7626bd1d68be8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_8c66acdce66a3210ef7626bd1d68be8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:18</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

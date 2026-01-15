@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="doc-approval-get-all">3b566cdc5d6a3210684157377f71b72e</dataset>
+        <datasource display_value="doc-approval-get-all">3b566cdca26a32102567f9f39573372d</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:38</sys_created_on>
+        <sys_id>37566cdcbb6a3210e9b476c847b2dd2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_37566cdcbb6a3210e9b476c847b2dd2d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:38</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

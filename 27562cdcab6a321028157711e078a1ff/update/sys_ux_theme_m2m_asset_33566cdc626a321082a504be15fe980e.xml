@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_m2m_asset">
+    <sys_ux_theme_m2m_asset action="INSERT_OR_UPDATE">
+        <asset display_value="Roboto">3f566cdcba6a321085851d3c472bd20f</asset>
+        <properties>{"font-style":"normal", "font-weight":"400"}</properties>
+        <sys_class_name>sys_ux_theme_m2m_asset</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33566cdc626a321082a504be15fe980e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ux_theme_m2m_asset_33566cdc626a321082a504be15fe980e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:18</sys_updated_on>
+        <theme display_value="Document Approval Workspace Theme">8866acdcc16a321048d5e181ed089191</theme>
+    </sys_ux_theme_m2m_asset>
+</record_update>

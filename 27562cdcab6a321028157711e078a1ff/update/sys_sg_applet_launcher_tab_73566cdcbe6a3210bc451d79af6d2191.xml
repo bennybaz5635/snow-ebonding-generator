@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_applet_launcher_tab">
+    <sys_sg_applet_launcher_tab action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applet_launcher display_value="EbondingGenerator">7b566cdc706a32105487f68bcfae748f</applet_launcher>
+        <icon display_value="Document Approvals">7b566cdcef6a32101dd11f2637116290</icon>
+        <label>Dcoument Approval</label>
+        <sys_class_name>sys_sg_applet_launcher_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:37</sys_created_on>
+        <sys_id>73566cdcbe6a3210bc451d79af6d2191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dcoument Approval</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_applet_launcher_tab_73566cdcbe6a3210bc451d79af6d2191</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:37</sys_updated_on>
+    </sys_sg_applet_launcher_tab>
+</record_update>

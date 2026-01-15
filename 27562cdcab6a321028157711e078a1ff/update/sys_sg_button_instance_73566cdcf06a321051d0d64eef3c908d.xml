@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Return document">77566cdc246a321048232892b7fb8694</button>
+        <color_theme>secondary</color_theme>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Return</label>
+        <location>footer</location>
+        <name>Return</name>
+        <order>20</order>
+        <parent>7f566cdc5c6a32100fa125b7804f738c</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:42</sys_created_on>
+        <sys_id>73566cdcf06a321051d0d64eef3c908d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Return</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_button_instance_73566cdcf06a321051d0d64eef3c908d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:42</sys_updated_on>
+        <table>x_512592_ebondin_0_document_approver</table>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=73566cdcf06a321051d0d64eef3c908d"/>
+</record_update>

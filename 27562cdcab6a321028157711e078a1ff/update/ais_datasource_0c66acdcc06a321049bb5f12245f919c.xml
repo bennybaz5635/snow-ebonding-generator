@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Document Approval Table</name>
+        <retention_policy/>
+        <source>x_512592_ebondin_0_document_approval</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:39</sys_created_on>
+        <sys_id>0c66acdcc06a321049bb5f12245f919c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Table</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>ais_datasource_0c66acdcc06a321049bb5f12245f919c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:39</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

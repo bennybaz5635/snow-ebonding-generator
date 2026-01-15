@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_segment">
+    <sys_sg_item_stream_m2m_segment action="INSERT_OR_UPDATE">
+        <item_stream display_value="New Document Aprpovals Item Stream">7b566cdc716a32105c889de11ff84e87</item_stream>
+        <segment display_value="Item Stream Segment">7b566cdc796a3210b56df199236e6a83</segment>
+        <sys_class_name>sys_sg_item_stream_m2m_segment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:32</sys_created_on>
+        <sys_id>77566cdcc76a3210e027b111c0562a83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_segment_77566cdcc76a3210e027b111c0562a83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:32</sys_updated_on>
+    </sys_sg_item_stream_m2m_segment>
+</record_update>

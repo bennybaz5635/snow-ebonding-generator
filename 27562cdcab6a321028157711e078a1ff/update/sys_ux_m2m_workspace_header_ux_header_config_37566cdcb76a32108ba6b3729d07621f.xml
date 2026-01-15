@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_m2m_workspace_header_ux_header_config">
+    <sys_ux_m2m_workspace_header_ux_header_config action="INSERT_OR_UPDATE">
+        <header_config display_value="Document Approval Portal">3f566cdc766a3210e4d31be9be022621</header_config>
+        <sys_class_name>sys_ux_m2m_workspace_header_ux_header_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:24</sys_created_on>
+        <sys_id>37566cdcb76a32108ba6b3729d07621f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ux_m2m_workspace_header_ux_header_config_37566cdcb76a32108ba6b3729d07621f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:24</sys_updated_on>
+        <workspace_form_header display_value="x_512592_ebondin_0_document_approval">c866acdc4c6a3210e87443454b676f76</workspace_form_header>
+    </sys_ux_m2m_workspace_header_ux_header_config>
+</record_update>

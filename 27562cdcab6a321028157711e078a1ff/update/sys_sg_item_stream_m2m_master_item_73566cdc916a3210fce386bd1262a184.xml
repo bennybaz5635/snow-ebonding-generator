@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="New Document Aprpovals Item Stream">7b566cdc716a32105c889de11ff84e87</item_stream>
+        <master_item display_value="New Document Aprpovals Main Item">77566cdc0c6a32105bf08031c7fd4784</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:19</sys_created_on>
+        <sys_id>73566cdc916a3210fce386bd1262a184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_73566cdc916a3210fce386bd1262a184</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:19</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

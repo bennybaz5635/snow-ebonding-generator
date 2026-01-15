@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_view_config_element">
+    <sys_sg_view_config_element action="INSERT_OR_UPDATE">
+        <creation_method/>
+        <name>text_02_element</name>
+        <sys_class_name>sys_sg_view_config_element</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:32</sys_created_on>
+        <sys_id>77566cdc0a6a32100700cbc19b61b27a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>text_02_element</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_view_config_element_77566cdc0a6a32100700cbc19b61b27a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:32</sys_updated_on>
+        <view_config display_value="Document Approvals View Config">77566cdca36a32104465cac5411db58a</view_config>
+        <view_template_slot display_value="text_02">77566cdce96a3210961c5aec3bc3da7b</view_template_slot>
+    </sys_sg_view_config_element>
+</record_update>

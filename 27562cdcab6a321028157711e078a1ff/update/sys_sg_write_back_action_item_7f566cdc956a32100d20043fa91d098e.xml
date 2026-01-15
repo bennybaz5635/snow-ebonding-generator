@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <attach_in_activity_stream/>
+        <description/>
+        <execution_script><![CDATA[(function WriteBackAction(input) {
+    //Type appropriate comment here, and begin script below
+    var recordId = input.sys_id;
+
+    var grDocApproval = new GlideRecord('x_512592_ebondin_0_document_approver');
+    if (grDocApproval.get(recordId)) {
+        grDocApproval.comments = input.comments;
+        grDocApproval.state = "returned";
+        grDocApproval.update();
+
+        gs.addInfoMessage(gs.getMessage("{0} returned.", grDocApproval.document.name));
+    }
+})(input);]]></execution_script>
+        <name>wb_return_document</name>
+        <parameter_screen/>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:21</sys_created_on>
+        <sys_id>7f566cdc956a32100d20043fa91d098e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wb_return_document</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_7f566cdc956a32100d20043fa91d098e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:21</sys_updated_on>
+        <table>x_512592_ebondin_0_document_approver</table>
+        <template/>
+        <type>script</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+        <use_fields_for_ref_lookup>false</use_fields_for_ref_lookup>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=7f566cdc956a32100d20043fa91d098e"/>
+</record_update>

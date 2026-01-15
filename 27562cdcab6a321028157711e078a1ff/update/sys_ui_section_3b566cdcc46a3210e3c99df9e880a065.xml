@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="3b566cdcc46a3210e3c99df9e880a065" sys_domain="global" table="x_512592_ebondin_0_document_approval" version="3" view="portal">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+            <sys_id>33566cdcb46a3210ea3f6af874dc1667</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_document_approval" sys_domain="global" view="b311f061bc3032108bb2f58e8d11a1e0">3b566cdcc46a3210e3c99df9e880a065</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_category</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+            <sys_id>3b566cdc756a3210970c3c718ee50666</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_document_approval" sys_domain="global" view="b311f061bc3032108bb2f58e8d11a1e0">3b566cdcc46a3210e3c99df9e880a065</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+            <sys_id>33566cdc466a32104d33ccf047be8a66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_document_approval" sys_domain="global" view="b311f061bc3032108bb2f58e8d11a1e0">3b566cdcc46a3210e3c99df9e880a065</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_512592_ebondin_0_document_approval</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b566cdcc46a3210e3c99df9e880a065</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_512592_ebondin_0_document_approval</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+            <sys_update_name>sys_ui_section_3b566cdcc46a3210e3c99df9e880a065</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Portal" name="portal">b311f061bc3032108bb2f58e8d11a1e0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

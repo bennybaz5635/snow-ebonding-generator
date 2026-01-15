@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Document Approval Search">33566cdcd56a3210d10d181603d2302e</dataset>
+        <order/>
+        <predicate_bundle display_value="Document Approval Search Bundle">3f566cdc146a32106708fdde779e4c2a</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:25</sys_created_on>
+        <sys_id>3b566cdc646a3210a0af967d99bf5d2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_3b566cdc646a3210a0af967d99bf5d2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:25</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>
