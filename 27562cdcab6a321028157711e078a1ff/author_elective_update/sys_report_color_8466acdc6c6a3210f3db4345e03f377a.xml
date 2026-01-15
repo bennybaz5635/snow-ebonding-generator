@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color">
+    <sys_report_color action="DELETE">
+        <color>#E3F4ED</color>
+        <display>background-color:#E3F4ED</display>
+        <name>#E3F4ED</name>
+        <sys_class_name>sys_report_color</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+        <sys_id>8466acdc6c6a3210f3db4345e03f377a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>#E3F4ED</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_report_color_8466acdc6c6a3210f3db4345e03f377a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+        <themeable_color/>
+    </sys_report_color>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_report_color_8466acdc6c6a3210f3db4345e03f377a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_color"><sys_report_color action="INSERT_OR_UPDATE"><color>#E3F4ED</color><display>background-color:#E3F4ED</display><name>#E3F4ED</name><sys_class_name>sys_report_color</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:34</sys_created_on><sys_id>8466acdc6c6a3210f3db4345e03f377a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>#E3F4ED</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_report_color_8466acdc6c6a3210f3db4345e03f377a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:34</sys_updated_on><themeable_color/></sys_report_color></record_update>]]></payload>
+        <payload_hash>-595742983</payload_hash>
+        <record_name>#E3F4ED</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>ae8d2c9883ea3210c0db5750ceaad350</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Color Definition</type>
+        <update_guid>6e8d2c98afea32104c66ba596a804c50</update_guid>
+        <update_guid_history>6e8d2c98afea32104c66ba596a804c50:-595742983</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:35:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_color">sys_report_color</sys_db_object>
+        <sys_id>02b1012321a544d39c957857b1ecb599</sys_id>
+        <sys_metadata>8466acdc6c6a3210f3db4345e03f377a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>#E3F4ED</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_report_color_8466acdc6c6a3210f3db4345e03f377a</sys_update_name>
+        <sys_update_version display_value="sys_report_color_8466acdc6c6a3210f3db4345e03f377a">ae8d2c9883ea3210c0db5750ceaad350</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:35:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

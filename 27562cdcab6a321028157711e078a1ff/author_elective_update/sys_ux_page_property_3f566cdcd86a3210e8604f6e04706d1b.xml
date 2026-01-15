@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">8466acdc496a3210f24cfbdf5f1bab9d</page>
+        <required_translations>[{"message":"Logout","comment":""},{"message":"UserMenu","comment":""}]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>3f566cdcd86a3210e8604f6e04706d1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ux_page_property_3f566cdcd86a3210e8604f6e04706d1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:42</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_512592_ebondin_0.8466acdc496a3210f24cfbdf5f1bab9d.root.chrome_header</unique_name>
+        <value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": true,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Logout"&#13;
+                },&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/x/512592/x_512592_ebondin_0-doc-approval/portal/login/params/logged-out/true"&#13;
+                  },&#13;
+                  "type": ""&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_ux_page_property_3f566cdcd86a3210e8604f6e04706d1b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">8466acdc496a3210f24cfbdf5f1bab9d</page><required_translations>[{"message":"Logout","comment":""},{"message":"UserMenu","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>3f566cdcd86a3210e8604f6e04706d1b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_ux_page_property_3f566cdcd86a3210e8604f6e04706d1b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:42</sys_updated_on><type>json</type><unique_name>x_512592_ebondin_0.8466acdc496a3210f24cfbdf5f1bab9d.root.chrome_header</unique_name><value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": true,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,&#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": {&#13;
+                  "translatable": true,&#13;
+                  "message": "Logout"&#13;
+                },&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/x/512592/x_512592_ebondin_0-doc-approval/portal/login/params/logged-out/true"&#13;
+                  },&#13;
+                  "type": ""&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>621891208</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>ceac6cd483ea3210c0db5750ceaad3fa</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>8eac6cd4a3ea3210c6c907a681c978fa</update_guid>
+        <update_guid_history>8eac6cd4a3ea3210c6c907a681c978fa:621891208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:31:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>38071cca75344a428fa477be7a9f3cc4</sys_id>
+        <sys_metadata>3f566cdcd86a3210e8604f6e04706d1b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3f566cdcd86a3210e8604f6e04706d1b</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3f566cdcd86a3210e8604f6e04706d1b">ceac6cd483ea3210c0db5750ceaad3fa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:31:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

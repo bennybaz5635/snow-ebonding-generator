@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="DELETE">
+        <collection>x_512592_ebondin_0_document_approval</collection>
+        <email_layout display_value="Document Approval Notification Layout">cc66acdc186a3210571ca9be94998e77</email_layout>
+        <message/>
+        <message_html/>
+        <message_list/>
+        <message_text/>
+        <name>Document Approval Template</name>
+        <sms_alternate/>
+        <subject>Document Approval Subject</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:37</sys_created_on>
+        <sys_id>c466acdcfc6a3210de06d7bae948ee78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Template</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sysevent_email_template_c466acdcfc6a3210de06d7bae948ee78</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:37</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sysevent_email_template_c466acdcfc6a3210de06d7bae948ee78</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template"><sysevent_email_template action="INSERT_OR_UPDATE"><collection>x_512592_ebondin_0_document_approval</collection><email_layout display_value="Document Approval Notification Layout">cc66acdc186a3210571ca9be94998e77</email_layout><message/><message_html/><message_list/><message_text/><name>Document Approval Template</name><sms_alternate/><subject>Document Approval Subject</subject><sys_class_name>sysevent_email_template</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:37</sys_created_on><sys_id>c466acdcfc6a3210de06d7bae948ee78</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Document Approval Template</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sysevent_email_template_c466acdcfc6a3210de06d7bae948ee78</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:37</sys_updated_on><sys_version>2</sys_version></sysevent_email_template></record_update>]]></payload>
+        <payload_hash>-1575269219</payload_hash>
+        <record_name>Document Approval Template</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>bd5de09883ea3210c0db5750ceaad393</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Email Template</type>
+        <update_guid>7d5de09852ea3210fafbcee3182dae93</update_guid>
+        <update_guid_history>7d5de09852ea3210fafbcee3182dae93:-1575269219</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:34:41</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_email_template">sysevent_email_template</sys_db_object>
+        <sys_id>31fc6b285e444033a830c2653221d909</sys_id>
+        <sys_metadata>c466acdcfc6a3210de06d7bae948ee78</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document Approval Template</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent display_value="">ac66ecdc836a3210c0db5750ceaad34d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sysevent_email_template_c466acdcfc6a3210de06d7bae948ee78</sys_update_name>
+        <sys_update_version display_value="sysevent_email_template_c466acdcfc6a3210de06d7bae948ee78">bd5de09883ea3210c0db5750ceaad393</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:34:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

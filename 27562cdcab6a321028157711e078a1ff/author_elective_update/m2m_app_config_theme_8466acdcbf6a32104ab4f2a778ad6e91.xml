@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="DELETE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8466acdcbf6a32104ab4f2a778ad6e91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>m2m_app_config_theme_8466acdcbf6a32104ab4f2a778ad6e91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:33</sys_updated_on>
+        <theme display_value="Document Approval Workspace Theme">8866acdcc16a321048d5e181ed089191</theme>
+        <ux_app_configuration display_value="">c066acdcda6a3210288a3ecbc243d79c</ux_app_configuration>
+    </m2m_app_config_theme>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>m2m_app_config_theme_8466acdcbf6a32104ab4f2a778ad6e91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme"><m2m_app_config_theme action="INSERT_OR_UPDATE"><applicability/><order>0</order><sys_class_name>m2m_app_config_theme</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8466acdcbf6a32104ab4f2a778ad6e91</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>m2m_app_config_theme_8466acdcbf6a32104ab4f2a778ad6e91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:33</sys_updated_on><theme display_value="Document Approval Workspace Theme">8866acdcc16a321048d5e181ed089191</theme><ux_app_configuration display_value="">c066acdcda6a3210288a3ecbc243d79c</ux_app_configuration></m2m_app_config_theme></record_update>]]></payload>
+        <payload_hash>-1540213522</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>d9ac6cd483ea3210c0db5750ceaad322</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Theme</type>
+        <update_guid>99ac6cd4e2ea3210d0c671c14de0d322</update_guid>
+        <update_guid_history>99ac6cd4e2ea3210d0c671c14de0d322:-1540213522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d9ac6cd483ea3210c0db5750ceaad323</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:31:38</sys_created_on>
+        <sys_db_object display_value="" name="m2m_app_config_theme">m2m_app_config_theme</sys_db_object>
+        <sys_id>1c29dfa542c14d58ac9a9ba30db11b51</sys_id>
+        <sys_metadata>8466acdcbf6a32104ab4f2a778ad6e91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>m2m_app_config_theme_8466acdcbf6a32104ab4f2a778ad6e91</sys_update_name>
+        <sys_update_version display_value="m2m_app_config_theme_8466acdcbf6a32104ab4f2a778ad6e91">d9ac6cd483ea3210c0db5750ceaad322</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:31:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="DELETE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>946</height>
+        <image>8c66acdc2a6a3210f576051a6ee00b98</image>
+        <name>x_512592_ebondin_0.doc-approval-login2.png</name>
+        <size_bytes>157941</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:20</sys_created_on>
+        <sys_id>8066acdc256a32101941d0b67ee0cc99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_512592_ebondin_0.doc-approval-login2.png</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>db_image_8066acdc256a32101941d0b67ee0cc99</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:20</sys_updated_on>
+        <thumbnail/>
+        <width>1069</width>
+    </db_image>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>db_image_8066acdc256a32101941d0b67ee0cc99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image"><db_image action="INSERT_OR_UPDATE"><active>true</active><category/><format>png</format><height>946</height><image>8c66acdc2a6a3210f576051a6ee00b98</image><name>x_512592_ebondin_0.doc-approval-login2.png</name><size_bytes>157941</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:20</sys_created_on><sys_id>8066acdc256a32101941d0b67ee0cc99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_512592_ebondin_0.doc-approval-login2.png</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>db_image_8066acdc256a32101941d0b67ee0cc99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:20</sys_updated_on><thumbnail/><width>1069</width></db_image></record_update>]]></payload>
+        <payload_hash>615477808</payload_hash>
+        <record_name>x_512592_ebondin_0.doc-approval-login2.png</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>a87de49883ea3210c0db5750ceaad3b3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Images</type>
+        <update_guid>687de498b1ea3210b49fbba336befeb3</update_guid>
+        <update_guid_history>687de498b1ea3210b49fbba336befeb3:615477808</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_512592_ebondin_0.doc-approval-login2.png">a47de49883ea3210c0db5750ceaad3b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:35:08</sys_created_on>
+        <sys_db_object display_value="" name="db_image">db_image</sys_db_object>
+        <sys_id>0004eb17012a40c481abf437e52b53e4</sys_id>
+        <sys_metadata>8066acdc256a32101941d0b67ee0cc99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_512592_ebondin_0.doc-approval-login2.png</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>db_image_8066acdc256a32101941d0b67ee0cc99</sys_update_name>
+        <sys_update_version display_value="db_image_8066acdc256a32101941d0b67ee0cc99">a87de49883ea3210c0db5750ceaad3b3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:35:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

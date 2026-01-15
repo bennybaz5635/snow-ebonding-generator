@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_512592_ebondin_0.DocApprovalUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>DocApprovalUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var DocApprovalUtils = Class.create();
+DocApprovalUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkHex: function(code) {
+		var RegExp = /^#[0-9A-F]{6}$/i;
+		return RegExp.test(code);
+	},
+
+    type: 'DocApprovalUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:33</sys_created_on>
+        <sys_id>c866acdcce6a3210e05c44ca8b46f5a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DocApprovalUtils</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_script_include_c866acdcce6a3210e05c44ca8b46f5a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:33</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_script_include_c866acdcce6a3210e05c44ca8b46f5a0</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_512592_ebondin_0.DocApprovalUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;DocApprovalUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var DocApprovalUtils = Class.create();
+DocApprovalUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	checkHex: function(code) {
+		var RegExp = /^#[0-9A-F]{6}$/i;
+		return RegExp.test(code);
+	},
+
+    type: 'DocApprovalUtils'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-15 21:04:33&lt;/sys_created_on&gt;&lt;sys_id&gt;c866acdcce6a3210e05c44ca8b46f5a0&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DocApprovalUtils&lt;/sys_name&gt;&lt;sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="EbondingGenerator"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c866acdcce6a3210e05c44ca8b46f5a0&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-15 21:04:33&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-874374877</payload_hash>
+        <record_name>DocApprovalUtils</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>163c209483ea3210c0db5750ceaad338</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Script Include</type>
+        <update_guid>d23c209429ea3210eba0345b8d861d38</update_guid>
+        <update_guid_history>d23c209429ea3210eba0345b8d861d38:-874374877</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:29:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>003294660da34db081488c1392f50251</sys_id>
+        <sys_metadata>c866acdcce6a3210e05c44ca8b46f5a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DocApprovalUtils</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c866acdcce6a3210e05c44ca8b46f5a0</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c866acdcce6a3210e05c44ca8b46f5a0">163c209483ea3210c0db5750ceaad338</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:29:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

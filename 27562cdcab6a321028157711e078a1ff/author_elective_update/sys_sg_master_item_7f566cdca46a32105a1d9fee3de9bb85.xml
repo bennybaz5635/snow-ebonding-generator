@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="DELETE">
+        <condition_order/>
+        <datasource_table>x_512592_ebondin_0_document_approver</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Document Approval">77566cdc756a3210b6d3fb5e594bf189</embedded_screen>
+        <item_view/>
+        <name>Approvals this year Main Item</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:34</sys_created_on>
+        <sys_id>7f566cdca46a32105a1d9fee3de9bb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals this year Main Item</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_sg_master_item_7f566cdca46a32105a1d9fee3de9bb85</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:34</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config/>
+    </sys_sg_master_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_sg_master_item_7f566cdca46a32105a1d9fee3de9bb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item"><sys_sg_master_item action="INSERT_OR_UPDATE"><condition_order/><datasource_table>x_512592_ebondin_0_document_approver</datasource_table><datasource_table_condition/><embedded_screen display_value="Document Approval">77566cdc756a3210b6d3fb5e594bf189</embedded_screen><item_view/><name>Approvals this year Main Item</name><sys_class_name>sys_sg_master_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:34</sys_created_on><sys_id>7f566cdca46a32105a1d9fee3de9bb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Approvals this year Main Item</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_sg_master_item_7f566cdca46a32105a1d9fee3de9bb85</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:34</sys_updated_on><use_view_config>true</use_view_config><view_config/></sys_sg_master_item></record_update>]]></payload>
+        <payload_hash>423174207</payload_hash>
+        <record_name>Approvals this year Main Item</record_name>
+        <reverted_from/>
+        <source>6b1bac9083aa3210c0db5750ceaad305</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:29:12</sys_created_on>
+        <sys_id>ed1c205483ea3210c0db5750ceaad318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc38ffe180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:29:12</sys_updated_on>
+        <type>List item config</type>
+        <update_guid>ad1c20548eea32108c911130644ff418</update_guid>
+        <update_guid_history>ad1c20548eea32108c911130644ff418:423174207</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:29:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_master_item">sys_sg_master_item</sys_db_object>
+        <sys_id>004fc4661d5441418003cfab00b643c9</sys_id>
+        <sys_metadata>7f566cdca46a32105a1d9fee3de9bb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approvals this year Main Item</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_sg_master_item_7f566cdca46a32105a1d9fee3de9bb85</sys_update_name>
+        <sys_update_version display_value="sys_sg_master_item_7f566cdca46a32105a1d9fee3de9bb85">ed1c205483ea3210c0db5750ceaad318</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:29:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

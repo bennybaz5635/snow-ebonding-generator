@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>Add Hex code of colour required for the button.&#13;
+default colour: #01778E</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_512592_ebondin_0.u_button_bgcolor</name>
+        <read_roles/>
+        <suffix>button_bgcolor</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:04:24</sys_created_on>
+        <sys_id>0866acdc3c6a321068e49c4a3e2567a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_512592_ebondin_0.u_button_bgcolor</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_properties_0866acdc3c6a321068e49c4a3e2567a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:04:24</sys_updated_on>
+        <type>string</type>
+        <value/>
+        <write_roles/>
+    </sys_properties>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_properties_0866acdc3c6a321068e49c4a3e2567a2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Add Hex code of colour required for the button.&#13;
+default colour: #01778E</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_512592_ebondin_0.u_button_bgcolor</name><read_roles/><suffix>button_bgcolor</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:04:24</sys_created_on><sys_id>0866acdc3c6a321068e49c4a3e2567a2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_512592_ebondin_0.u_button_bgcolor</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_properties_0866acdc3c6a321068e49c4a3e2567a2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:04:24</sys_updated_on><type>string</type><value/><write_roles/></sys_properties></record_update>]]></payload>
+        <payload_hash>-1083240716</payload_hash>
+        <record_name>x_512592_ebondin_0.u_button_bgcolor</record_name>
+        <reverted_from/>
+        <source>2203582283123210c0db5750ceaad3ec</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-01-10 09:10:25</sys_created_on>
+        <sys_id>7b1d685883ea3210c0db5750ceaad300</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19ba72bcfe80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>System Property</type>
+        <update_guid>3b1d6858e1ea3210b15c81b3b3b14200</update_guid>
+        <update_guid_history>3b1d6858e1ea3210b15c81b3b3b14200:-1083240716</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:33:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>8b3d598035fe4920b16c7907dec57c90</sys_id>
+        <sys_metadata>0866acdc3c6a321068e49c4a3e2567a2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_512592_ebondin_0.u_button_bgcolor</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_properties_0866acdc3c6a321068e49c4a3e2567a2</sys_update_name>
+        <sys_update_version display_value="sys_properties_0866acdc3c6a321068e49c4a3e2567a2">7b1d685883ea3210c0db5750ceaad300</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:33:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
