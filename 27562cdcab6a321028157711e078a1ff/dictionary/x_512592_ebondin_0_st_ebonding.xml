@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="f1603490832e3210c0db5750ceaad308" label="Ebonding" max_length="40" name="x_512592_ebondin_0_st_ebonding" type="collection">
-        <element display="true" label="Technical Name" max_length="100" name="technical_name" type="string"/>
-        <element label="Display Name" max_length="100" name="display_name" type="string"/>
+        <element label="Technical Name" mandatory="true" max_length="100" name="technical_name" type="string"/>
+        <element display="true" label="Display Name" mandatory="true" max_length="100" name="display_name" type="string"/>
+        <element default="(function generate(ebonding) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;})(current, previous);" label="Implementation" max_length="8000" name="implementation" type="script"/>
     </element>
 </database>
