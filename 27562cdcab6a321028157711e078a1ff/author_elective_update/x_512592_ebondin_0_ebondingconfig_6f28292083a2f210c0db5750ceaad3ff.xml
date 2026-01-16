@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_512592_ebondin_0_ebondingconfig">
+    <x_512592_ebondin_0_ebondingconfig action="DELETE">
+        <name>Ebonding TEST</name>
+        <sys_class_name>x_512592_ebondin_0_ebondingconfig</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 20:30:26</sys_created_on>
+        <sys_id>6f28292083a2f210c0db5750ceaad3ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebonding TEST</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>x_512592_ebondin_0_ebondingconfig_6f28292083a2f210c0db5750ceaad3ff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 20:30:26</sys_updated_on>
+        <technical_name>ebonding_test</technical_name>
+    </x_512592_ebondin_0_ebondingconfig>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>x_512592_ebondin_0_ebondingconfig_6f28292083a2f210c0db5750ceaad3ff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_512592_ebondin_0_ebondingconfig"><x_512592_ebondin_0_ebondingconfig action="INSERT_OR_UPDATE"><name>Ebonding TEST</name><sys_class_name>x_512592_ebondin_0_ebondingconfig</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-16 20:30:26</sys_created_on><sys_id>6f28292083a2f210c0db5750ceaad3ff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ebonding TEST</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>x_512592_ebondin_0_ebondingconfig_6f28292083a2f210c0db5750ceaad3ff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-16 20:30:26</sys_updated_on><technical_name>ebonding_test</technical_name></x_512592_ebondin_0_ebondingconfig></record_update>]]></payload>
+        <payload_hash>-1910210631</payload_hash>
+        <record_name>Ebonding TEST</record_name>
+        <reverted_from/>
+        <source>6b1bac9083aa3210c0db5750ceaad305</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 20:30:26</sys_created_on>
+        <sys_id>6e38e92083a2f210c0db5750ceaad35d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc8808d280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 20:30:26</sys_updated_on>
+        <type>EbondingConfig</type>
+        <update_guid>2e38e920a0a2f21036c302bc02ef4f5c</update_guid>
+        <update_guid_history>2e38e920a0a2f21036c302bc02ef4f5c:-1910210631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ebonding TEST">7388e56083a2f210c0db5750ceaad3cb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 20:31:54</sys_created_on>
+        <sys_db_object display_value="" name="x_512592_ebondin_0_ebondingconfig">x_512592_ebondin_0_ebondingconfig</sys_db_object>
+        <sys_id>0a7310783962491da006a84caabc8259</sys_id>
+        <sys_metadata>6f28292083a2f210c0db5750ceaad3ff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebonding TEST</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>x_512592_ebondin_0_ebondingconfig_6f28292083a2f210c0db5750ceaad3ff</sys_update_name>
+        <sys_update_version display_value="x_512592_ebondin_0_ebondingconfig_6f28292083a2f210c0db5750ceaad3ff">6e38e92083a2f210c0db5750ceaad35d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 20:31:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

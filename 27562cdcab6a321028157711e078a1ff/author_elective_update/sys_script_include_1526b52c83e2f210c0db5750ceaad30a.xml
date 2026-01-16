@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_512592_ebondin_0.EbondingExampleImpl</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>EbondingExampleImpl</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var EbondingExampleImpl = Class.create();
+
+EbondingExampleImpl.prototype = {
+   initialize : function() {
+   },
+   
+   /**
+	* Generate the ebonding files
+	* @param GlideRecord ebondingConfig The ebonding configuration object
+    */
+   generate : function(ebondingConfig) {
+		gs.info("EbondingExampleImpl.generate() START generating ebonding files...");
+
+		// Create a new business rule
+
+      var grBusinessRule = new GlideRecord("sys_script");
+      grBusinessRule.initialize();
+      grBusinessRule.name = "EbondingExampleBR";
+      grBusinessRule.collection = "incident";
+      grBusinessRule.script = "gs.info('EbondingExampleBR');";
+      grBusinessRule.when = "before";
+      grBusinessRule.action_insert = true;
+      grBusinessRule.active = true;
+      grBusinessRule.insert();
+
+
+		return true;
+   }
+
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 21:31:15</sys_created_on>
+        <sys_id>1526b52c83e2f210c0db5750ceaad30a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>EbondingExampleImpl</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_script_include_1526b52c83e2f210c0db5750ceaad30a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 21:43:01</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_script_include_1526b52c83e2f210c0db5750ceaad30a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_512592_ebondin_0.EbondingExampleImpl&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;EbondingExampleImpl&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var EbondingExampleImpl = Class.create();
+
+EbondingExampleImpl.prototype = {
+   initialize : function() {
+   },
+   
+   /**
+	* Generate the ebonding files
+	* @param GlideRecord ebondingConfig The ebonding configuration object
+    */
+   generate : function(ebondingConfig) {
+		gs.info("EbondingExampleImpl.generate() START generating ebonding files...");
+
+		// Create a new business rule
+
+      var grBusinessRule = new GlideRecord("sys_script");
+      grBusinessRule.initialize();
+      grBusinessRule.name = "EbondingExampleBR";
+      grBusinessRule.collection = "incident";
+      grBusinessRule.script = "gs.info('EbondingExampleBR');";
+      grBusinessRule.when = "before";
+      grBusinessRule.action_insert = true;
+      grBusinessRule.active = true;
+      grBusinessRule.insert();
+
+
+		return true;
+   }
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-16 21:31:15&lt;/sys_created_on&gt;&lt;sys_id&gt;1526b52c83e2f210c0db5750ceaad30a&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;EbondingExampleImpl&lt;/sys_name&gt;&lt;sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EbondingGenerator"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1526b52c83e2f210c0db5750ceaad30a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-16 21:43:01&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1593340168</payload_hash>
+        <record_name>EbondingExampleImpl</record_name>
+        <reverted_from/>
+        <source>6b1bac9083aa3210c0db5750ceaad305</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 21:43:01</sys_created_on>
+        <sys_id>e1d8b5248326f210c0db5750ceaad348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc8c2ff560000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 21:43:01</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>21d8b5248b26f2106117675babbb2247</update_guid>
+        <update_guid_history>21d8b5248b26f2106117675babbb2247:-1593340168,7c28f9acc1e2f210cd64ad21d5f3a672:-1167656665,f007fdec23e2f21038cecea22aee0ce8:-1038276986,f3f6fdec2de2f2106790760e99fcfea5:-405314832,b85679ac45e2f210337fbc94d20fdb8d:-1038276986,1d26f1accae2f2108c3bdfe41d276726:1291485466</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 22:06:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3f1fef6f2b4e49bc803dd6acb3e13084</sys_id>
+        <sys_metadata>1526b52c83e2f210c0db5750ceaad30a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EbondingExampleImpl</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_script_include_1526b52c83e2f210c0db5750ceaad30a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1526b52c83e2f210c0db5750ceaad30a">e1d8b5248326f210c0db5750ceaad348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 22:06:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_512592_ebondin_0_ebondingconfig</basic_apply_to>
+        <basic_query_from>syslog</basic_query_from>
+        <insert_callback/>
+        <name>Generation logs</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+    current.addQuery("sys_created_on", "ON", "Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()");
+	current.addQuery("source", "x_512592_ebondin_0");
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 22:32:31</sys_created_on>
+        <sys_id>03834e2c8366f210c0db5750ceaad3df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generation logs</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_relationship_03834e2c8366f210c0db5750ceaad3df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 22:32:31</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=03834e2c8366f210c0db5750ceaad3df"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>03834e2c8366f210c0db5750ceaad3df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 22:32:31</sys_created_on>
+        <sys_id>72244a6c8366f210c0db5750ceaad343</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 22:32:31</sys_updated_on>
+        <table>sys_relationship</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

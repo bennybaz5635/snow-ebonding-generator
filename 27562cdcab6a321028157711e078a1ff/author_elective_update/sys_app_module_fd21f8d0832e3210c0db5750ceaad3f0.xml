@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Ebonding Generator">3521f8d0832e3210c0db5750ceaad3ea</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Ebondings</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_512592_ebondin_0_st_ebonding</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_512592_ebondin_0.ebonding_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:51:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd21f8d0832e3210c0db5750ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebondings</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_app_module_fd21f8d0832e3210c0db5750ceaad3f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:51:20</sys_updated_on>
+        <timeline_page/>
+        <title>Ebondings</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_app_module_fd21f8d0832e3210c0db5750ceaad3f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Ebonding Generator">3521f8d0832e3210c0db5750ceaad3ea</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Ebondings</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_512592_ebondin_0_st_ebonding</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_512592_ebondin_0.ebonding_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-01-15 21:51:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fd21f8d0832e3210c0db5750ceaad3f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Ebondings</sys_name><sys_overrides/><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_app_module_fd21f8d0832e3210c0db5750ceaad3f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-01-15 21:51:20</sys_updated_on><timeline_page/><title>Ebondings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>310671611</payload_hash>
+        <record_name>Ebondings</record_name>
+        <reverted_from/>
+        <source>6b1bac9083aa3210c0db5750ceaad305</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-15 21:51:20</sys_created_on>
+        <sys_id>b121f8d0832e3210c0db5750ceaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19bc3a441460000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-15 21:51:20</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7121f8d0122e321044e373a95c9d8bf5</update_guid>
+        <update_guid_history>7121f8d0122e321044e373a95c9d8bf5:310671611</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Ebondings">76d6e16c8362f210c0db5750ceaad3aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-16 20:24:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>15b8192adf854740a1b3295d871a9000</sys_id>
+        <sys_metadata>fd21f8d0832e3210c0db5750ceaad3f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Ebondings</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_app_module_fd21f8d0832e3210c0db5750ceaad3f0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_fd21f8d0832e3210c0db5750ceaad3f0">b121f8d0832e3210c0db5750ceaad3f6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-16 20:24:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
