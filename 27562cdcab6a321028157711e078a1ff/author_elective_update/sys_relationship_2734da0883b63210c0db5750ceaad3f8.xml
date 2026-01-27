@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_512592_ebondin_0_ebondingprocess</basic_apply_to>
+        <basic_query_from>x_512592_ebondin_0_ebondingmapping</basic_query_from>
+        <insert_callback/>
+        <name>Outbound mapping</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+    current.addQuery("ebonding_process", current.getUniqueValue());
+    current.addQuery("way", "outbound");
+
+})(current, parent);]]></query_with>
+        <reference_field/>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 20:41:29</sys_created_on>
+        <sys_id>2734da0883b63210c0db5750ceaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Outbound mapping</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_relationship_2734da0883b63210c0db5750ceaad3f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 20:41:29</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=2734da0883b63210c0db5750ceaad3f8"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_relationship_2734da0883b63210c0db5750ceaad3f8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_512592_ebondin_0_ebondingprocess&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_512592_ebondin_0_ebondingmapping&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Outbound mapping&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+    current.addQuery("ebonding_process", current.getUniqueValue());
+    current.addQuery("way", "outbound");
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-01-27 20:41:29&lt;/sys_created_on&gt;&lt;sys_id&gt;2734da0883b63210c0db5750ceaad3f8&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Outbound mapping&lt;/sys_name&gt;&lt;sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="EbondingGenerator"&gt;27562cdcab6a321028157711e078a1ff&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_2734da0883b63210c0db5750ceaad3f8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-01-27 20:41:29&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2734da0883b63210c0db5750ceaad3f8"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1442054738</payload_hash>
+        <record_name>Outbound mapping</record_name>
+        <reverted_from/>
+        <source>f434c68483363210c0db5750ceaad38a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 20:41:29</sys_created_on>
+        <sys_id>2f34da0883b63210c0db5750ceaad3fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c01309f190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 20:41:29</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>eb34da08ccb632105bbd48e8a9821cfd</update_guid>
+        <update_guid_history>eb34da08ccb632105bbd48e8a9821cfd:1442054738</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-27 20:45:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>333bfe1e169546c2ba6f494d8e0eece4</sys_id>
+        <sys_metadata>2734da0883b63210c0db5750ceaad3f8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Outbound mapping</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent display_value="EbondingProcess">a02a3c6d83e23210c0db5750ceaad325</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_relationship_2734da0883b63210c0db5750ceaad3f8</sys_update_name>
+        <sys_update_version display_value="sys_relationship_2734da0883b63210c0db5750ceaad3f8">2f34da0883b63210c0db5750ceaad3fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-27 20:45:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

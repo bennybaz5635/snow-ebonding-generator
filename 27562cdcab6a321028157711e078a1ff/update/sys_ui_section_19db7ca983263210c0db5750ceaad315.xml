@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:51:10</sys_created_on>
-            <sys_id>dc0c70e983263210c0db5750ceaad39f</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>b7d3120883b63210c0db5750ceaad385</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:51:10</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,113 +18,155 @@
             <element>ebonding_config</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:51:10</sys_created_on>
-            <sys_id>980c70e983263210c0db5750ceaad3a0</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>73d3120883b63210c0db5750ceaad386</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:51:10</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>3fd3120883b63210c0db5750ceaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:51:10</sys_created_on>
-            <sys_id>d00cf0e983263210c0db5750ceaad348</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>f7d3120883b63210c0db5750ceaad387</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:51:10</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:51:10</sys_created_on>
-            <sys_id>9c0cf0e983263210c0db5750ceaad348</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>b3d3120883b63210c0db5750ceaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:51:10</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>process_type</element>
-            <position>4</position>
+            <element>.begin_split</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:52:40</sys_created_on>
-            <sys_id>1a5cfce983263210c0db5750ceaad301</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>7fd3120883b63210c0db5750ceaad388</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:52:40</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
-            <type/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>inbound_create</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:58:22</sys_created_on>
-            <sys_id>7dad78ad83263210c0db5750ceaad3ab</sys_id>
+            <sys_created_on>2026-01-27 20:39:52</sys_created_on>
+            <sys_id>ffd3120883b63210c0db5750ceaad395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:58:22</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:52</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>inbound_update</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:59:54</sys_created_on>
-            <sys_id>d00eb4ed83263210c0db5750ceaad3ec</sys_id>
+            <sys_created_on>2026-01-27 20:39:53</sys_created_on>
+            <sys_id>88e3120883b63210c0db5750ceaad396</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:59:54</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>outbound_create</element>
-            <position>7</position>
+            <element>.split</element>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:59:54</sys_created_on>
-            <sys_id>d80ef4ed83263210c0db5750ceaad30c</sys_id>
+            <sys_created_on>2026-01-27 20:39:53</sys_created_on>
+            <sys_id>44e3120883b63210c0db5750ceaad397</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:59:54</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outbound_create</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 20:39:53</sys_created_on>
+            <sys_id>00e3120883b63210c0db5750ceaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 20:39:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>outbound_update</element>
-            <position>8</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-01-19 19:59:54</sys_created_on>
-            <sys_id>1c0ef4ed83263210c0db5750ceaad327</sys_id>
+            <sys_created_on>2026-01-27 20:39:53</sys_created_on>
+            <sys_id>c8e3120883b63210c0db5750ceaad398</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-01-19 19:59:54</sys_updated_on>
+            <sys_updated_on>2026-01-27 20:39:53</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-01-27 20:39:53</sys_created_on>
+            <sys_id>84e3120883b63210c0db5750ceaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_512592_ebondin_0_ebondingprocess" sys_domain="global" view="Default view">19db7ca983263210c0db5750ceaad315</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-01-27 20:39:53</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>

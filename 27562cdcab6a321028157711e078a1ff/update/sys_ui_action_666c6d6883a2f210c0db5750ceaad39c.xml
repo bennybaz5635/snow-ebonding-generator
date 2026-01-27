@@ -42,8 +42,55 @@
     if (!grScriptInclude.next())
         throw "Cannot find Script Include with name: " + scriptIncludeName;
 
+
+    // Init ebonding config data
+    var ebondingConfig = {
+        name: current.name.toString(),
+        technical_name: current.technical_name.toString(),
+        processes: [],
+    };
+
+    // Pour chaque process ...
+    var grProcess = new GlideRecord("x_512592_ebondin_0_ebondingprocess");
+    grProcess.addQuery("ebonding_config", current.getUniqueValue());
+    grProcess.query();
+    while (grProcess.next()) {
+
+        var process = {
+            process_type: grProcess.process_type.toString(),
+            inbound_create: (grProcess.inbound_create == true),
+            inbound_update: (grProcess.inbound_update == true),
+            outbound_create: (grProcess.outbound_create == true),
+            outbound_update: (grProcess.outbound_update == true),
+            mappings: [],
+        };
+
+        // Pour chaque mapping ...
+        var grMapping = new GlideRecord("x_512592_ebondin_0_ebondingmapping");
+        grMapping.addQuery("ebonding_process", grProcess.getUniqueValue());
+        grMapping.orderBy("order");
+        grMapping.query();
+        while (grMapping.next()) {
+            var mapping = {
+                way: grMapping.way.toString(),
+                order: grMapping.order.toString(),
+                source: grMapping.source.toString(),
+                target: grMapping.target.toString(),
+                default_value: grMapping.default_value.toString(),
+                mandatory: (grMapping.mandatory == true),
+                advanced: (grMapping.advanced == true),
+                transform_script: grMapping.transform_script.toString(),
+            }
+
+            process.mappings.push(mapping);
+        }
+
+        ebondingConfig.processes.push(process);
+    }
+
+
     // Execute script include ...
-    new global[scriptIncludeName](source, current)["generate"]();
+    new global[scriptIncludeName]()["generate"](source, ebondingConfig);
 
 } catch (e) {
     gs.error(e);
@@ -58,7 +105,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>666c6d6883a2f210c0db5750ceaad39c</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>Generate</sys_name>
         <sys_overrides/>
         <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
@@ -66,7 +113,7 @@
         <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
         <sys_update_name>sys_ui_action_666c6d6883a2f210c0db5750ceaad39c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-19 19:35:35</sys_updated_on>
+        <sys_updated_on>2026-01-27 21:31:03</sys_updated_on>
         <table>x_512592_ebondin_0_ebondingconfig</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

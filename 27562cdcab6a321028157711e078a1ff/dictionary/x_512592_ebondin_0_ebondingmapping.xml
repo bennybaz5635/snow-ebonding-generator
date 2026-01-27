@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="583a068083763210c0db5750ceaad3b0" extends="sys_metadata" label="EbondingMapping" max_length="40" name="x_512592_ebondin_0_ebondingmapping" type="collection">
+        <element label="Order" max_length="40" name="order" type="integer"/>
+        <element choice="3" label="Way" mandatory="true" max_length="40" name="way" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Outbound" value="outbound"/>
+                <element inactive_on_update="false" label="Inbound" value="inbound"/>
+            </choice>
+        </element>
+        <element default="/**&#13;&#10;  * @param sourceValue The value of the source field&#13;&#10;  * @param current The record inserted or updated through the process (incident, change_request, ...)&#13;&#10;  */&#13;&#10;function transform(/*string*/ sourceValue, /*GlideRecord*/ current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;&#9;return ''; // Return the value to put in the target field&#13;&#10;}" label="Transform script" max_length="8000" name="transform_script" type="script"/>
+        <element label="Advanced" max_length="40" name="advanced" type="boolean"/>
+        <element label="Mandatory" max_length="40" name="mandatory" type="boolean"/>
+        <element label="Default value" max_length="40" name="default_value" type="string"/>
+        <element label="Source" max_length="40" name="source" type="string"/>
+        <element label="Ebonding process" max_length="32" name="ebonding_process" reference="x_512592_ebondin_0_ebondingprocess" type="reference"/>
+        <element label="Target" max_length="40" name="target" type="string"/>
+        <index name="index">
+            <element name="ebonding_process"/>
+        </index>
+    </element>
+</database>
