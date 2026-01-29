@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>order</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-01-29 21:55:18</sys_created_on>
+        <sys_id>8458fcb483363210c0db5750ceaad386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>order</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8458fcb483363210c0db5750ceaad386</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-01-29 21:55:18</sys_updated_on>
+        <table>x_512592_ebondin_0_ebondingmapping</table>
+        <ui_policy display_value="Show/hide ebonding mapping inbound response fields">3087b47483363210c0db5750ceaad370</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=8458fcb483363210c0db5750ceaad386"/>
+</record_update>

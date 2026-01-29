@@ -14,6 +14,12 @@
         <element label="Default value" max_length="40" name="default_value" type="string"/>
         <element label="Source" max_length="40" name="source" type="string"/>
         <element label="Ebonding process" max_length="32" name="ebonding_process" reference="x_512592_ebondin_0_ebondingprocess" type="reference"/>
+        <element choice="3" default="request" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Request" value="request"/>
+                <element inactive_on_update="false" label="Response" value="response"/>
+            </choice>
+        </element>
         <element label="Target" max_length="40" name="target" type="string"/>
         <index name="index">
             <element name="ebonding_process"/>
