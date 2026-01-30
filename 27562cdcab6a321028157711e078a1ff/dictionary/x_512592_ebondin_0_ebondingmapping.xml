@@ -8,7 +8,7 @@
                 <element inactive_on_update="false" label="Inbound" value="inbound"/>
             </choice>
         </element>
-        <element default="/**&#13;&#10;  * @param sourceValue The value of the source field&#13;&#10;  * @param current The record inserted or updated through the process (incident, change_request, ...)&#13;&#10;  */&#13;&#10;function transform(/*string*/ sourceValue, /*GlideRecord*/ current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;&#9;return ''; // Return the value to put in the target field&#13;&#10;}" label="Transform script" max_length="8000" name="transform_script" type="script"/>
+        <element default="/**&#13;&#10; * @param source (JSONObject) The source data&#13;&#10; * @param current (GlideRecord) The current record&#13;&#10; */&#13;&#10;function transform(source, current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#13;&#10;&#9;return ''; // Return the value to put in the target field&#13;&#10;}" label="Transform script" max_length="8000" name="transform_script" type="script"/>
         <element label="Advanced" max_length="40" name="advanced" type="boolean"/>
         <element label="Mandatory" max_length="40" name="mandatory" type="boolean"/>
         <element label="Default value" max_length="40" name="default_value" type="string"/>
