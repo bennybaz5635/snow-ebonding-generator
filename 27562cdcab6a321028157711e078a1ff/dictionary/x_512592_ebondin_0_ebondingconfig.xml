@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" db_object_id="47f5a1e88362f210c0db5750ceaad37d" extends="sys_metadata" label="EbondingConfig" max_length="40" name="x_512592_ebondin_0_ebondingconfig" type="collection">
+    <element db_object_id="47f5a1e88362f210c0db5750ceaad37d" extends="sys_metadata" label="EbondingConfig" max_length="40" name="x_512592_ebondin_0_ebondingconfig" type="collection">
         <element label="Technical Name" mandatory="true" max_length="100" name="technical_name" read_only="true" type="string"/>
         <element display="true" label="Name" max_length="100" name="name" type="string"/>
         <element label="Implementation" max_length="40" name="implementation" reference="sys_script_include" type="reference"/>

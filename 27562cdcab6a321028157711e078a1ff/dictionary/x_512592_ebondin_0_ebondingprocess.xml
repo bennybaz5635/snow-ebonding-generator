@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="update_synch=true" db_object_id="a02a3c6d83e23210c0db5750ceaad325" extends="sys_metadata" label="EbondingProcess" max_length="40" name="x_512592_ebondin_0_ebondingprocess" type="collection">
+    <element db_object_id="a02a3c6d83e23210c0db5750ceaad325" extends="sys_metadata" label="EbondingProcess" max_length="40" name="x_512592_ebondin_0_ebondingprocess" type="collection">
         <element label="Outbound update" max_length="40" name="outbound_update" type="boolean"/>
         <element label="Outbound create" max_length="40" name="outbound_create" type="boolean"/>
         <element choice="3" display="true" label="Process type" mandatory="true" max_length="40" name="process_type" type="choice">
