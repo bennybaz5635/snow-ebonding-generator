@@ -57,11 +57,13 @@
     while (grProcess.next()) {
 
         var process = {
-            process_type: grProcess.process_type.toString(),
+            table_name: grProcess.table_name.toString(),
             inbound_create: (grProcess.inbound_create == true),
             inbound_update: (grProcess.inbound_update == true),
             outbound_create: (grProcess.outbound_create == true),
+            outbound_create_url_path: grProcess.outbound_create_url_path.toString(),
             outbound_update: (grProcess.outbound_update == true),
+            outbound_update_uri_path: grProcess.outbound_update_uri_path.toString(),
             mappings: [],
         };
 
@@ -90,12 +92,11 @@
         ebondingConfig.processes.push(process);
     }
 
-
     // Execute script include ...
     new global[scriptIncludeName]()["generate"](source, ebondingConfig);
 
 } catch (e) {
-    gs.error(e);
+    gs.error("[ERROR] " + e);
 }]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
@@ -107,7 +108,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>666c6d6883a2f210c0db5750ceaad39c</sys_id>
-        <sys_mod_count>49</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>Generate</sys_name>
         <sys_overrides/>
         <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
@@ -115,7 +116,7 @@
         <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
         <sys_update_name>sys_ui_action_666c6d6883a2f210c0db5750ceaad39c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-01-29 21:11:45</sys_updated_on>
+        <sys_updated_on>2026-02-01 18:23:26</sys_updated_on>
         <table>x_512592_ebondin_0_ebondingconfig</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

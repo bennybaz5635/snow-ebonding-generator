@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="a02a3c6d83e23210c0db5750ceaad325" extends="sys_metadata" label="EbondingProcess" max_length="40" name="x_512592_ebondin_0_ebondingprocess" type="collection">
+        <element label="Outbound update URI path" max_length="40" name="outbound_update_uri_path" type="string"/>
+        <element display="true" label="Table name" mandatory="true" max_length="80" name="table_name" type="table_name"/>
         <element label="Outbound update" max_length="40" name="outbound_update" type="boolean"/>
         <element label="Outbound create" max_length="40" name="outbound_create" type="boolean"/>
-        <element choice="3" display="true" label="Process type" mandatory="true" max_length="40" name="process_type" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Attachment" sequence="90" value="attachment"/>
-                <element inactive_on_update="false" label="Incident" sequence="10" value="incident"/>
-                <element inactive_on_update="false" label="Change Request" sequence="20" value="change_request"/>
-            </choice>
-        </element>
+        <element label="Outbound create URL path" max_length="40" name="outbound_create_url_path" type="string"/>
         <element label="Inbound update" max_length="40" name="inbound_update" type="boolean"/>
         <element label="Ebonding config" max_length="32" name="ebonding_config" reference="x_512592_ebondin_0_ebondingconfig" type="reference"/>
         <element label="Inbound create" max_length="40" name="inbound_create" type="boolean"/>
