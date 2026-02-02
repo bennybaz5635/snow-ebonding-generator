@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>inbound_create_trigger</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 15:51:33</sys_created_on>
+        <sys_id>c06b04ca83f23210c0db5750ceaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inbound_create_trigger</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_update_name>sys_ui_policy_action_c06b04ca83f23210c0db5750ceaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 15:51:33</sys_updated_on>
+        <table>x_512592_ebondin_0_ebondingprocess</table>
+        <ui_policy display_value="Mandatory ebonding process inbound create">185bcc8a83f23210c0db5750ceaad322</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=c06b04ca83f23210c0db5750ceaad34d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</application>
+        <file_path/>
+        <instance_id>69639f871be635149377eb9b2d4bcb84</instance_id>
+        <instance_name>dev219818</instance_name>
+        <name>sys_ui_policy_action_c06b04ca83f23210c0db5750ceaad34d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>inbound_create_trigger</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-02 15:51:33</sys_created_on><sys_id>c06b04ca83f23210c0db5750ceaad34d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>inbound_create_trigger</sys_name><sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package><sys_policy/><sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope><sys_update_name>sys_ui_policy_action_c06b04ca83f23210c0db5750ceaad34d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-02 15:51:33</sys_updated_on><table>x_512592_ebondin_0_ebondingprocess</table><ui_policy display_value="Mandatory ebonding process inbound create">185bcc8a83f23210c0db5750ceaad322</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=c06b04ca83f23210c0db5750ceaad34d"/></record_update>]]></payload>
+        <payload_hash>-550460226</payload_hash>
+        <record_name>inbound_create_trigger</record_name>
+        <reverted_from/>
+        <source>0417f73183723210c0db5750ceaad35a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 15:51:33</sys_created_on>
+        <sys_id>fe6b44ca83f23210c0db5750ceaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c1f0d54c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 15:51:33</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>be6b44cafcf23210b4a8cde5aef8849f</update_guid>
+        <update_guid_history>be6b44cafcf23210b4a8cde5aef8849f:-550460226</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-02 16:14:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>34c1f0bfdd964c029985cce2d2c32884</sys_id>
+        <sys_metadata>c06b04ca83f23210c0db5750ceaad34d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>inbound_create_trigger</sys_name>
+        <sys_package display_value="EbondingGenerator" source="x_512592_ebondin_0">27562cdcab6a321028157711e078a1ff</sys_package>
+        <sys_parent display_value="Mandatory ebonding process outbound create">185bcc8a83f23210c0db5750ceaad322</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="EbondingGenerator">27562cdcab6a321028157711e078a1ff</sys_scope>
+        <sys_scope_delete display_value="">176252b5a6144080abdb5f30863d5c40</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_c06b04ca83f23210c0db5750ceaad34d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_c06b04ca83f23210c0db5750ceaad34d">fe6b44ca83f23210c0db5750ceaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-02 16:14:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

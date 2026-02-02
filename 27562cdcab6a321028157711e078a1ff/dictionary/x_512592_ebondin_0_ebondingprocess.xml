@@ -2,9 +2,11 @@
     <element db_object_id="a02a3c6d83e23210c0db5750ceaad325" extends="sys_metadata" label="EbondingProcess" max_length="40" name="x_512592_ebondin_0_ebondingprocess" type="collection">
         <element label="Outbound update URI path" max_length="40" name="outbound_update_uri_path" type="string"/>
         <element display="true" label="Table name" mandatory="true" max_length="80" name="table_name" type="table_name"/>
+        <element attributes="extended_operators=VALCHANGES;CHANGESFROM;CHANGESTO" dependent="table_name" dependent_on_field="table_name" label="Outbound update trigger" max_length="4000" name="outbound_update_trigger" type="conditions" use_dependent_field="true"/>
         <element label="Outbound update" max_length="40" name="outbound_update" type="boolean"/>
         <element label="Outbound create" max_length="40" name="outbound_create" type="boolean"/>
         <element label="Outbound create URL path" max_length="40" name="outbound_create_url_path" type="string"/>
+        <element attributes="extended_operators=VALCHANGES;CHANGESFROM;CHANGESTO" dependent="table_name" dependent_on_field="table_name" label="Outbound create trigger" max_length="4000" name="outbound_create_trigger" type="conditions" use_dependent_field="true"/>
         <element label="Inbound update" max_length="40" name="inbound_update" type="boolean"/>
         <element label="Ebonding config" max_length="32" name="ebonding_config" reference="x_512592_ebondin_0_ebondingconfig" type="reference"/>
         <element label="Inbound create" max_length="40" name="inbound_create" type="boolean"/>
